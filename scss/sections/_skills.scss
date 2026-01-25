@@ -1,0 +1,43 @@
+@use "../custom" as *;
+
+.skills {
+  padding: 4rem 0;
+  background-color: $white;
+}
+
+.skill-card {
+  background: linear-gradient(145deg, $gray-100, $white);
+  border-radius: 1rem;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba($black, 0.05);
+  border: 1px solid $gray-200;
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba($primary, 0.15);
+    border-color: $primary;
+    .skill-icon i {
+      color: $secondary;
+      transform: scale(1.1);
+    }
+  }
+}
+
+.skill-icon {
+  margin-bottom: 1rem;
+  i {
+    font-size: 3.5rem;
+    color: $primary;
+    transition: all 0.3s ease;
+  }
+}
+
+.skill-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: $gray-800;
+  margin: 0;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}

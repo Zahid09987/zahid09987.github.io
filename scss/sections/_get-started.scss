@@ -1,0 +1,35 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.get-started {
+  padding: 4rem 0;
+  background-color: $gray-200;
+}
+
+.cta-info {
+  padding: 3rem;
+  margin: 1rem 0;
+}
+
+.social-links a {
+  position: relative;
+  font-size: 2rem;
+  color: $white;
+  padding-top: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.form {
+  padding: 3rem;
+
+  button {
+    border: none;
+    color: $white;
+
+    a {
+      color: $white;
+      text-decoration: none;
+      text-transform: capitalize;
+    }
+  }
+}

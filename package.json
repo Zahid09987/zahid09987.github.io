@@ -1,0 +1,24 @@
+{
+  "name": "sass-portfolio",
+  "version": "0.0.1",
+  "description": "This is a test of Zahid's Portfolio using Bootstrap and Sass",
+  "keywords": [
+    "Bootstrap",
+    "Sass",
+    "Portfolio"
+  ],
+  "license": "ISC",
+  "author": "Zahid Rizky Fakhri",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "devDependencies": {
+    "sass": "^1.97.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "bootstrap": "^5.3.8"
+  }
+}
