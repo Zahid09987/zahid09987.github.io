@@ -12214,4 +12214,12 @@ h2.accordion-header {
   margin-bottom: 0;
 }
 
+.footer-bottom {
+  background-color: #000;
+}
+.footer-bottom__copyright {
+  color: #6c757d;
+  font-weight: 400;
+}
+
 /*# sourceMappingURL=style.css.map */

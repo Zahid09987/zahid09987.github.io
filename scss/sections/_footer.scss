@@ -39,3 +39,12 @@
     }
   }
 }
+
+.footer-bottom {
+  background-color: $black;
+
+  &__copyright {
+    color: $gray-600;
+    font-weight: 400;
+  }
+}
