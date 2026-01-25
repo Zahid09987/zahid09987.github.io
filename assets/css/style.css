@@ -12191,6 +12191,7 @@ h2.accordion-header {
   display: flex;
   align-items: center;
   gap: 1rem;
+  margin-bottom: 1rem;
 }
 .footer .contact-box__icon {
   display: flex;
