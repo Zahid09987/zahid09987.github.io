@@ -12187,5 +12187,30 @@ h2.accordion-header {
   padding-top: 1rem;
   background-color: #151414;
 }
+.footer .contact-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.footer .contact-box__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .contact-box__icon svg {
+  flex-shrink: 0;
+}
+.footer .contact-box__info--title {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.footer .contact-box__info--title:hover {
+  color: #0047b2;
+}
+.footer .contact-box__info--subtitle {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -4,4 +4,37 @@
 .footer {
   padding-top: 1rem;
   background-color: $footer;
+
+  .contact-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    &__icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      svg {
+        flex-shrink: 0;
+      }
+    }
+
+    &__info {
+      &--title {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+
+        &:hover {
+          color: $primary;
+        }
+      }
+
+      &--subtitle {
+        color: rgba(255, 255, 255, 0.7);
+        margin-bottom: 0;
+      }
+    }
+  }
 }
