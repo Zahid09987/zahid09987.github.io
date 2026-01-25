@@ -11907,16 +11907,32 @@ textarea.form-control-lg {
 
 @font-face {
   font-family: "Source Sans 3";
-  src: url("../fonts/SourceSans3VF-Upright.otf.woff2"), url("../fonts/SourceSans3VF-Italic.otf.woff2");
+  src: url("../fonts/SourceSans3VF-Upright.otf.woff2");
 }
 @font-face {
   font-family: "Source Serif 4";
-  src: url("../fonts/SourceSerif4Variable-Roman.otf.woff2"), url("../fonts/SourceSerif4Variable-Italic.otf.woff2");
+  src: url("../fonts/SourceSerif4Variable-Roman.otf.woff2");
 }
 @font-face {
   font-family: "Source Code Pro";
-  src: url("../fonts/SourceCodeVF-Upright.otf.woff2"), url("../fonts/SourceCodeVF-Italic.otf.woff2");
+  src: url("../fonts/SourceCodeVF-Upright.otf.woff2");
 }
+@font-face {
+  font-family: "Source Sans 3 Italic";
+  src: url("../fonts/SourceSans3VF-Italic.otf.woff2");
+}
+@font-face {
+  font-family: "Source Serif 4 Italic";
+  src: url("../fonts/SourceSerif4VF-Italic.otf.woff2");
+}
+@font-face {
+  font-family: "Source Code Pro Italic";
+  src: url("../fonts/SourceCodeVF-Italic.otf.woff2");
+}
+em {
+  font-family: "Source Sans 3 Italic", "Source Serif 4 Italic", "Source Code Pro Italic";
+}
+
 .navbar-brand {
   font-family: "Source Serif 4";
 }
