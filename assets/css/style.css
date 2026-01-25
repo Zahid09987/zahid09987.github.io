@@ -12051,10 +12051,10 @@ h2.accordion-header {
   height: 100%;
 }
 
-.intros .video-box {
+.intros .image-box {
   position: relative;
 }
-.intros .video-box a span i {
+.intros .image-box a span i {
   font-size: 6rem;
   color: #0dcaf0;
 }
