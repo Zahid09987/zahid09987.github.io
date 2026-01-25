@@ -1,0 +1,17 @@
+@use "../custom.scss" as *;
+@use "../components/mixins" as *;
+
+.page-header {
+  background: linear-gradient(to right, $primary, darken($primary, 15%));
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+  margin-bottom: 0;
+
+  h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .lead {
+    opacity: 0.9;
+  }
+}

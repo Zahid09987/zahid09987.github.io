@@ -11891,11 +11891,13 @@ textarea.form-control-lg {
   right: 5px;
   transform: translateY(-50%);
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .btn-rounded span i {
   color: #fff;
   font-size: 1rem;
-  line-height: 2.5rem;
 }
 .btn-rounded:hover {
   background: linear-gradient(to right, rgba(0, 71, 178, 0.95), rgba(13, 202, 240, 0.95));
@@ -12074,6 +12076,19 @@ h2.accordion-header {
 }
 .border-animation--border-2 {
   animation-delay: 1.5s;
+}
+
+.page-header {
+  background: linear-gradient(to right, #0047b2, rgb(0, 40.4859550562, 101.5));
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+  margin-bottom: 0;
+}
+.page-header h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.page-header .lead {
+  opacity: 0.9;
 }
 
 .skills {
