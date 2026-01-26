@@ -13,7 +13,7 @@ This portfolio does the following:
 ## How to access it?
 
 You can access it by clicking/tapping the link below:
-https://zahid09987.github.io
+<a href="https://zahid09987.github.io" target="_blank">https://zahid09987.github.io</a>
 
 ## What's next?
 
