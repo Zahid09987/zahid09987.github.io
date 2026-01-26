@@ -18,4 +18,4 @@ You can access it by clicking/tapping the link below:
 
 ## What's next?
 
-Zahid plans to add dark/light/system theme switcher and translation support in the future.
+Zahid plans to ~~add dark/light/system theme switcher~~ and translation support in the future.
