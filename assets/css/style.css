@@ -12354,6 +12354,9 @@ h2.accordion-header {
 [data-bs-theme=dark] h6 {
   color: #fff;
 }
+[data-bs-theme=dark] .get-started {
+  background-color: #000;
+}
 [data-bs-theme=dark] p {
   color: #ced4da;
 }
