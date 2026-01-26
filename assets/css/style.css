@@ -12253,11 +12253,32 @@ h2.accordion-header {
 [data-bs-theme=dark] .nav-link:hover, [data-bs-theme=dark] .nav-link.active {
   color: #0047b2;
 }
+[data-bs-theme=dark] .bg-white {
+  background-color: #212529 !important;
+  color: #f8f9fa !important;
+  border: 1px solid #343a40;
+}
+[data-bs-theme=dark] .text-white {
+  color: #fff !important;
+}
+[data-bs-theme=dark] .text-black,
+[data-bs-theme=dark] .text-dark {
+  color: #f8f9fa !important;
+}
+[data-bs-theme=dark] .page-header h1,
+[data-bs-theme=dark] .page-header .lead,
+[data-bs-theme=dark] .page-header p {
+  color: #fff !important;
+  text-shadow: none;
+}
 [data-bs-theme=dark] .intro-section {
   background: #000;
 }
 [data-bs-theme=dark] .intro-section .display-2--intro {
   color: #fff;
+}
+[data-bs-theme=dark] .intro-section h1 span {
+  color: #fff !important;
 }
 [data-bs-theme=dark] .skills {
   background-color: #000;
@@ -12281,6 +12302,13 @@ h2.accordion-header {
   background-color: #000;
   color: #e9ecef;
 }
+[data-bs-theme=dark] .services h2,
+[data-bs-theme=dark] .services h3 {
+  color: #fff !important;
+}
+[data-bs-theme=dark] .services .display-3--title {
+  color: #fff !important;
+}
 [data-bs-theme=dark] .accordion-item {
   background-color: #212529;
   color: #f8f9fa;
@@ -12297,6 +12325,27 @@ h2.accordion-header {
 [data-bs-theme=dark] .accordion-button::after {
   filter: invert(1);
 }
+[data-bs-theme=dark] .form-control {
+  background-color: #212529;
+  border-color: #343a40;
+  color: #fff;
+}
+[data-bs-theme=dark] .form-control:focus {
+  background-color: #212529;
+  color: #fff;
+  border-color: #0047b2;
+}
+[data-bs-theme=dark] .form-control::placeholder {
+  color: #adb5bd;
+}
+[data-bs-theme=dark] .btn-rounded {
+  background-color: #343a40;
+  border-color: #495057;
+  color: #fff;
+}
+[data-bs-theme=dark] .btn-rounded span i {
+  color: #fff;
+}
 [data-bs-theme=dark] h1,
 [data-bs-theme=dark] h2,
 [data-bs-theme=dark] h3,
@@ -12307,16 +12356,6 @@ h2.accordion-header {
 }
 [data-bs-theme=dark] p {
   color: #ced4da;
-}
-[data-bs-theme=dark] .form-control {
-  background-color: #212529;
-  border-color: #343a40;
-  color: #fff;
-}
-[data-bs-theme=dark] .form-control:focus {
-  background-color: #212529;
-  color: #fff;
-  border-color: #0047b2;
 }
 
 /*# sourceMappingURL=style.css.map */
