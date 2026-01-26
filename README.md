@@ -14,7 +14,7 @@ This portfolio does the following:
 
 You can access it by clicking/tapping the link below:
 
-<a href="https://zahid09987.github.io" target="_blank">https://zahid09987.github.io</a>
+[https://zahid09987.github.io](https://zahid09987.github.io){:target="_blank" rel="noopener noreferrer"}
 
 ## What's next?
 
