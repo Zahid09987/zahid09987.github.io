@@ -12237,4 +12237,86 @@ h2.accordion-header {
   font-weight: 400;
 }
 
+[data-bs-theme=dark] body {
+  background-color: #000;
+  color: #f8f9fa;
+}
+[data-bs-theme=dark] .navbar {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+}
+[data-bs-theme=dark] .navbar.menu {
+  background-color: #000;
+}
+[data-bs-theme=dark] .nav-link {
+  color: #dee2e6;
+}
+[data-bs-theme=dark] .nav-link:hover, [data-bs-theme=dark] .nav-link.active {
+  color: #0047b2;
+}
+[data-bs-theme=dark] .intro-section {
+  background: #000;
+}
+[data-bs-theme=dark] .intro-section .display-2--intro {
+  color: #fff;
+}
+[data-bs-theme=dark] .skills {
+  background-color: #000;
+}
+[data-bs-theme=dark] .skills .lead {
+  color: #f8f9fa;
+}
+[data-bs-theme=dark] .skill-card {
+  background: linear-gradient(145deg, #212529, #000);
+  border-color: #343a40;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.05);
+}
+[data-bs-theme=dark] .skill-card .skill-name {
+  color: #e9ecef;
+}
+[data-bs-theme=dark] .skill-card:hover {
+  background: #212529;
+  box-shadow: 0 15px 35px rgba(0, 71, 178, 0.2);
+}
+[data-bs-theme=dark] .services {
+  background-color: #000;
+  color: #e9ecef;
+}
+[data-bs-theme=dark] .accordion-item {
+  background-color: #212529;
+  color: #f8f9fa;
+  border-color: #343a40;
+}
+[data-bs-theme=dark] .accordion-button {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+[data-bs-theme=dark] .accordion-button:not(.collapsed) {
+  background-color: rgba(0, 71, 178, 0.2);
+  color: #0047b2;
+}
+[data-bs-theme=dark] .accordion-button::after {
+  filter: invert(1);
+}
+[data-bs-theme=dark] h1,
+[data-bs-theme=dark] h2,
+[data-bs-theme=dark] h3,
+[data-bs-theme=dark] h4,
+[data-bs-theme=dark] h5,
+[data-bs-theme=dark] h6 {
+  color: #fff;
+}
+[data-bs-theme=dark] p {
+  color: #ced4da;
+}
+[data-bs-theme=dark] .form-control {
+  background-color: #212529;
+  border-color: #343a40;
+  color: #fff;
+}
+[data-bs-theme=dark] .form-control:focus {
+  background-color: #212529;
+  color: #fff;
+  border-color: #0047b2;
+}
+
 /*# sourceMappingURL=style.css.map */
