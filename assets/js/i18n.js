@@ -24,3 +24,15 @@ async function initLocalization(locale = "en-US") {
 
   return { bundle, l10n };
 }
+
+async function changeLanguage(locale) {
+  localStorage.setItem("preferredLanguage", locale);
+  await initLocalization(locale);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const savedLocale = localStorage.getItem("preferredLanguage") || "en-US";
+  initLocalization(savedLocale);
+});
+
+export { initLocalization, changeLanguage };
