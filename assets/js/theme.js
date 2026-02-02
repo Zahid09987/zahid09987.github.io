@@ -81,13 +81,17 @@
 
     const themeSwitcher = document.querySelector("#bd-theme");
     if (themeSwitcher) {
-      document.querySelectorAll("[data-bs-theme-value]").forEach((button) => {
-        button.addEventListener("click", () => {
-          const theme = button.getAttribute("data-bs-theme-value");
-          setStoredTheme(theme);
-          setTheme(theme);
-          showActiveTheme(theme, true);
-        });
+      themeSwitcher.addEventListener("click", () => {
+        const activeTheme = getStoredTheme() || "auto";
+        let nextTheme = "light";
+
+        if (activeTheme === "light") nextTheme = "dark";
+        else if (activeTheme === "dark") nextTheme = "auto";
+        else nextTheme = "light";
+
+        setStoredTheme(nextTheme);
+        setTheme(nextTheme);
+        showActiveTheme(nextTheme, true);
       });
     }
   });
