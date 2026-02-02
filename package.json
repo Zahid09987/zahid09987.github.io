@@ -18,6 +18,8 @@
     "sass": "^1.97.3"
   },
   "dependencies": {
+    "@fluent/bundle": "^0.19.1",
+    "@fluent/dom": "^0.10.2",
     "@fortawesome/fontawesome-free": "^7.1.0",
     "bootstrap": "^5.3.8"
   }
