@@ -12044,6 +12044,71 @@ h2.accordion-header {
   font-weight: 600;
 }
 
+.lang-switcher {
+  position: relative;
+}
+.lang-switcher .btn.dropdown-toggle {
+  font-size: 1.15rem;
+  padding: 0.25rem 0.5rem;
+  border: none;
+  box-shadow: none;
+  transition: transform 0.3s ease;
+}
+.lang-switcher .btn.dropdown-toggle::after {
+  display: none;
+}
+.lang-switcher .btn.dropdown-toggle:focus {
+  box-shadow: none;
+}
+.lang-switcher .dropdown-menu {
+  min-width: 10rem;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+  backdrop-filter: blur(12px);
+  background: rgba(33, 37, 41, 0.92);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.15);
+  animation: langDropIn 0.2s ease-out;
+}
+.lang-switcher .dropdown-menu .dropdown-item {
+  color: #dee2e6;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.lang-switcher .dropdown-menu .dropdown-item:focus {
+  background: rgba(0, 71, 178, 0.2);
+  color: #fff;
+}
+.lang-switcher .dropdown-menu .dropdown-item.active {
+  background: rgba(0, 71, 178, 0.25);
+  color: #fff;
+  position: relative;
+}
+.lang-switcher .dropdown-menu .dropdown-item.active::after {
+  content: "\f00c";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 0.7rem;
+  margin-left: auto;
+  color: #0047b2;
+}
+
+@keyframes langDropIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
 .intro-section {
   background: linear-gradient(to right, rgba(0, 71, 178, 0.95), rgba(13, 202, 240, 0.95));
   padding: 10rem 0 0 0;
@@ -12380,6 +12445,21 @@ h2.accordion-header {
 }
 [data-bs-theme=dark] p {
   color: #ced4da;
+}
+[data-bs-theme=dark] .lang-switcher .dropdown-menu {
+  background: rgba(0, 0, 0, 0.95);
+  border-color: rgba(73, 80, 87, 0.4);
+}
+[data-bs-theme=dark] .lang-switcher .dropdown-menu .dropdown-item {
+  color: #ced4da;
+}
+[data-bs-theme=dark] .lang-switcher .dropdown-menu .dropdown-item:hover, [data-bs-theme=dark] .lang-switcher .dropdown-menu .dropdown-item:focus {
+  background: rgba(0, 71, 178, 0.2);
+  color: #fff;
+}
+[data-bs-theme=dark] .lang-switcher .dropdown-menu .dropdown-item.active {
+  background: rgba(0, 71, 178, 0.2);
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

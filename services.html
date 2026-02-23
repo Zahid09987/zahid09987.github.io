@@ -63,6 +63,38 @@
           >
             <i class="fa-solid fa-circle-half-stroke"></i>
           </button>
+          <div class="lang-switcher dropdown ms-1 me-2">
+            <button
+              class="btn btn-link text-white dropdown-toggle"
+              id="bd-lang"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              aria-label="Select language"
+            >
+              <i class="fa-solid fa-globe"></i>
+            </button>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="bd-lang"
+            >
+              <li>
+                <button class="dropdown-item" type="button" data-locale="en-US">
+                  English (United States)
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button" data-locale="en-GB">
+                  English (United Kingdom)
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button" data-locale="en-AU">
+                  English (Australia)
+                </button>
+              </li>
+            </ul>
+          </div>
           <a
             href="https://wa.me/6281382512312"
             class="rounded-pill btn-rounded text-decoration-none"
@@ -174,7 +206,10 @@
               >
                 Web design
               </h3>
-              <p class="lh-lg" data-l10n-id="services-content-design-description">
+              <p
+                class="lh-lg"
+                data-l10n-id="services-content-design-description"
+              >
                 We provide web design services to help you create a visually
                 appealing and user-friendly website that effectively
                 communicates your brand&apos;s message and engages your
