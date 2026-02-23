@@ -11,6 +11,9 @@ jobs:
   crowdin:
     name: Sync with Crowdin
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
 
     steps:
       - name: Checkout
