@@ -1,7 +1,7 @@
 import { FluentBundle, FluentResource } from "@fluent/bundle";
 import { DOMLocalization } from "@fluent/dom";
 
-const SUPPORTED_LOCALES = ["en-US", "en-GB", "en-AU"];
+const SUPPORTED_LOCALES = ["en-US", "en-GB", "en-AU", "vi-VN"];
 const DEFAULT_LOCALE = "en-US";
 
 async function fetchResource(locale, resourceId) {
