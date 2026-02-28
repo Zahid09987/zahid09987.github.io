@@ -1,5 +1,8 @@
-import { FluentBundle, FluentResource } from "@fluent/bundle";
-import { DOMLocalization } from "@fluent/dom";
+import {
+  FluentBundle,
+  FluentResource,
+} from "https://esm.sh/@fluent/bundle@0.19.1";
+import { DOMLocalization } from "https://esm.sh/@fluent/dom@0.10.2";
 
 const SUPPORTED_LOCALES = ["en-US", "en-GB", "en-AU", "tl-PH", "vi-VN"];
 const DEFAULT_LOCALE = "en-US";
